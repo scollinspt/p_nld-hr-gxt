@@ -1,0 +1,4 @@
+{
+  "decision": "exclude",
+  "reason": "DFA was excluded because the original implementation was incompatible with the available window lengths and no independently validated replacement was established for this analysis."
+}
