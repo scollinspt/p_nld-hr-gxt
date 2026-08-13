@@ -6,6 +6,17 @@
 *.pickle
 *.h5
 *.hdf5
+*.txt
+*.dat
+*.mat
+
+# Data Directories
+/ECG_EDF/
+/ECG_HRV_MAT/
+/rr/
+/subject_HRV_data/
+/data/
+/raw_data/
 
 # Generated Outputs
 /merged_data/
@@ -21,6 +32,15 @@
 .ipynb_checkpoints/
 *.ipynb
 .jupyter/
+
+# Manuscript & Research Files (legacy)
+/Non-Linear\ Dynamics\ of\ Heart\ Rate\ during\ a\ Graded\ Maximum\ Exercise\ Test/
+*.Rmd
+*.Rnw
+*.Rproj
+*_files/
+pMaxVO2_HRV_README.md
+merge_hrv_metabolic.py
 
 # Python
 __pycache__/
