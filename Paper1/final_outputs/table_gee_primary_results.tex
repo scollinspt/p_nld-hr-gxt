@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\begin{tabular}{lcccccccccc}
+\toprule
+Outcome & Scale & $\beta_1$ & SE$_1$ & 95\% CI$_1$ & $p_1$ & $\beta_2$ & SE$_2$ & 95\% CI$_2$ & $p_2$ & AR(1) $\alpha$ \\
+\midrule
+Mean HR & Raw & 1.468 & 0.218 & [1.041, 1.894] & <0.001 & -0.074 & 0.087 & [-0.244, 0.096] & 0.392 & 0.971 \\
+SDNN & Raw & -0.686 & 0.107 & [-0.896, -0.476] & <0.001 & -0.061 & 0.060 & [-0.179, 0.058] & 0.316 & 0.987 \\
+RMSSD & Natural log & -0.009 & 0.005 & [-0.019, 0.001] & 0.076 & 0.004 & 0.002 & [-0.001, 0.008] & 0.086 & 0.998 \\
+LF power & Natural log & -0.132 & 0.020 & [-0.171, -0.092] & <0.001 & -0.000 & 0.009 & [-0.019, 0.018] & 0.978 & 0.970 \\
+HF power & Natural log & -0.063 & 0.016 & [-0.094, -0.032] & <0.001 & 0.015 & 0.007 & [0.002, 0.029] & 0.030 & 0.981 \\
+LF/HF & Natural log & -0.041 & 0.011 & [-0.063, -0.019] & <0.001 & -0.014 & 0.006 & [-0.026, -0.002] & 0.020 & 0.988 \\
+Sample Entropy & Natural log & 0.029 & 0.010 & [0.009, 0.048] & 0.004 & 0.011 & 0.005 & [0.001, 0.020] & 0.029 & 0.994 \\
+\bottomrule
+\end{tabular}\begin{tablenotes}\footnotesize\item VO$_2$ was standardized before fitting. $\beta_1$ is the first-order coefficient evaluated at centered VO$_2$; $\beta_2$ represents curvature. RMSSD, LF power, HF power, LF/HF, and Sample Entropy were natural-log transformed. N = 923 observations from 22 participants.\end{tablenotes}
+\end{threeparttable}
+\caption{Primary quadratic AR(1)-GEE results}
+\label{tab:gee-results}
+\end{table}
