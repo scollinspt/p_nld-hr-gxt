@@ -1,32 +1,10 @@
 # Data Files (Large, Keep Locally)
-*.csv
 *.edf
-*.parquet
-*.pkl
-*.pickle
-*.h5
-*.hdf5
-*.txt
-*.dat
 *.mat
 
-# Data Directories
+# Data Directories (Raw ECG - large files)
 /ECG_EDF/
 /ECG_HRV_MAT/
-/rr/
-/subject_HRV_data/
-/data/
-/raw_data/
-
-# Generated Outputs
-/merged_data/
-/output/
-/results/
-/plots/
-*.png
-*.pdf
-*.jpg
-*.jpeg
 
 # Jupyter Notebooks & Checkpoints
 .ipynb_checkpoints/

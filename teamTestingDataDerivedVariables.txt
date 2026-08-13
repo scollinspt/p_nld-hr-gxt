@@ -1,0 +1,21 @@
+teamTestingData.csv - is data collected during the pre-season testing period including the max exercise testing performed in the human assessment lab
+
+Most variables are self explanatory - but some are derived:
+
+Force(N) = Wt(kg) * 9.81
+
+Speed (m/s) = SpeedMax * .44704
+
+VertVelocity(m/s) = speed(m/s) * grade(decimal)
+
+PowerDone = Force(N) * VertVelocity(m/s)
+
+kcal(max) = vo2_L_max * 5.81
+
+J/min = kcal(min) * 4184
+
+PowerUsed = Joules_min * 60
+
+Efficiency = PowerDone_watts / PowerUsed_watts
+
+
